@@ -1,0 +1,7 @@
+@mixin mobile() //Mixin para dispositivos móviles
+{
+  @media (max-width: 650px)
+  {
+    @content;
+  }
+}

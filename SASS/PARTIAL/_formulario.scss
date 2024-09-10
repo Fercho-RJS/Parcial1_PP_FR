@@ -1,0 +1,69 @@
+.formulario
+{
+  background-color:  $primary-color;
+  color: $primary-letra;  
+  width: 80%;
+  margin: 50px auto;
+  padding: 15px;
+  border: 1px solid $primary-color;
+  border-radius: 15px;
+
+  @include mobile()
+  {
+    display: none;
+  }
+}
+
+input
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px; 
+  border: 1px solid #ccc;
+}
+
+textarea
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px; 
+  border: 1px solid #ccc;
+}
+
+.guardar
+{
+  width: 100%;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: $primary-letra;
+  padding: 15px 70px;
+  margin: 8px 0px;
+  border: 0px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336); 
+  transition: all 1s;
+
+  &:hover
+  {
+    background-color: #044906;
+  }
+}
+
+.cancelar
+{
+  width: 100%;
+  font-size: 16px;
+  background-color: #9b3e3e;
+  color: $primary-letra;
+  padding: 15px 70px;
+  margin: 8px 0px;
+  border: 0px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.336); 
+  transition: all 1s;
+
+  &:hover
+  {
+    background-color: #fd5959;
+  }
+}
